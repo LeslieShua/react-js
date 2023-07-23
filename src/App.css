@@ -2,6 +2,52 @@
   text-align: center;
 }
 
+div {
+  box-sizing : border-box
+}
+
+.horizon{
+  display: flex;
+  align-items: center;
+}
+
+.horizon p {
+  margin-right: 10px;
+}
+
+.horizon button:nth-of-type(1) {
+  margin-right: 10px;
+}
+
+.mginR10 {
+  margin-right: 10px;
+}
+
+.modal{
+  margin-top : 20px;
+  padding : 20px;
+  background : #eee;
+  text-align : left;
+}
+
+.black-nav {
+  background : black;
+  width : 100%;
+  display : flex;
+  color : white;
+  padding : 20px;
+}
+
+.list {
+  text-align : left;
+  padding-left : 20px;
+  border-bottom : 1px solid grey;
+}
+.list1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
